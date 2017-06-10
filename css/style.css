@@ -195,8 +195,8 @@ fieldset {
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #24b662;
-	color: #ffffff !important;
+  background: #88d317;
+  color: #535353 !important;
 }
 
 .button-style:before {
@@ -330,7 +330,7 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100%;
-    /*background: url(../images/bg/bg.jpg);*/
+    background: url(../images/bg/chemical_bg.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -410,9 +410,13 @@ body.loaded #preloader{
 }
 
 .logo {
-    padding-top: 28px;
+    padding-top: 36px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    float: left;
+    line-height: 5px;
+    position: relative;
+    z-index: 999;
 }
 
 .logo a {
@@ -421,9 +425,8 @@ body.loaded #preloader{
     text-transform: uppercase;
     letter-spacing: 6px;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 30px;
 }
-
 .navigation-menu .navbar-nav li a {
     color: #fff;
     text-transform: uppercase;
@@ -437,7 +440,7 @@ body.loaded #preloader{
 
 .navigation-menu .navbar-nav li a:hover {
     background: none;
-    color: #fff;
+    color: #88d317;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
