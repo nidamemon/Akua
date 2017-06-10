@@ -432,7 +432,7 @@ body.loaded #preloader{
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 30px 15px;
+    padding: 30px 15px 8px 15px;
     -webkit-transition: .3s;
     transition: .3s;
     font-weight: 600;
@@ -1469,4 +1469,38 @@ ul.portfolio li.active {
 
 .uipasta-credit a:hover {
     color: #ffffff;
+}
+
+.custom-hover li a{
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.custom-hover a:hover,
+.custom-hover a:focus {
+	outline: none;
+}
+
+/*--Effect 7: Bottom Line .custom-hover-effects--*/
+
+.custom-hover-effects a{
+	padding:0 0 12px;
+}
+.custom-hover-effects a::after {
+  background-color:#ffffff;
+  content: "";
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  opacity: 0;
+  transition: opacity 300ms ease, bottom 300ms ease;
+}
+.custom-hover-effects a:hover::after {
+  opacity: 1;
+  bottom: 0;
 }
