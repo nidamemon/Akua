@@ -74,10 +74,10 @@ h6 {
 a {
     text-decoration: none;
 }
-
-img {
+/*commeted for portfolio img distortion*/
+/*img {
     width: 100%;
-}
+}*/
 
 a:hover {
     color: #fff;
