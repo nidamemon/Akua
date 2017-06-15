@@ -120,13 +120,24 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 600;
-    border-bottom: 4px double #24b662;
-	border-radius: 25px;
+	/*border-radius: 25px;*/
     font-size: 30px;
-    margin: 0 auto;
-    padding: 10px 0;
-    width: 350px;
-	margin-bottom: 30px;
+    /*margin: 0 auto;*/
+    /*padding: 10px 0;*/
+    /*width: 350px;*/
+	/*margin-bottom: 30px;*/
+  /*margin-top: 100px;*/
+  margin-left: 491px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #88d317;
+  color: #535353;
+  overflow:hidden;
+  border-radius: 50px;
+  border: 3px solid #fff;
+  width: 24%;
 }
 
 .section-title p {
@@ -337,7 +348,7 @@ body.loaded #preloader{
 
 .home-section-background:after {
     position: absolute;
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, 0.05);
     left: 0;
     top: 0;
     width: 100%;
@@ -749,7 +760,7 @@ ul.portfolio li.active {
 }
 .statistics-section:after{
   position: absolute;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .6);
   left: 0;
   top: 0;
   width: 100%;
@@ -758,9 +769,18 @@ ul.portfolio li.active {
   z-index: -1;
 }
 .about-us-heading{
-  color: lightyellow;
   margin-top: 100px;
+  margin-left: 491px;
   padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #17d3b2;
+  color: #535353;
+  overflow:hidden;
+  border-radius: 50px;
+  border: 3px solid #fff;
+  width: 18%;
 }
 
 .statistics {
@@ -801,13 +821,11 @@ ul.portfolio li.active {
   letter-spacing: 1px;
 }
 
-
-
 /* Services */
 
 .services-section {
   position: relative;
-    background: url(../images/bg/about-us.jpg);
+    background: url(../images/bg/products-background.jpg);
     background-size: cover;
     background-position: 50% 50%;
     z-index: 1;
