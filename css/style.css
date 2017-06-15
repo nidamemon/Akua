@@ -879,10 +879,16 @@ ul.portfolio li.active {
 /* Contact Us */
 
 .contact-us {
-	background-color: #f9f9f9;
+  position: relative;
+  height: 100%;
+  background: url(../images/bg/contact-bg.jpg);
+  background-size: cover;
+  z-index: 1;
+  margin-top: 5px;
 }
 
 .contact-us-detail {
+  color: #fff;
 }
 
 .contact-us-detail i {
@@ -903,11 +909,11 @@ ul.portfolio li.active {
 }
 
 .contact-us-detail a {
-	color: #333;
+	color: #fff;
 }
 
 .contact-us-detail a:hover {
-	color: #333;
+	color: #88d317;
 }
 
 .form-group {
