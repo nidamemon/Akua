@@ -132,8 +132,7 @@ fieldset {
   padding-right: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #88d317;
-  color: #535353;
+  color: #fff;
   overflow:hidden;
   border-radius: 50px;
   border: 3px solid #fff;
@@ -757,6 +756,7 @@ ul.portfolio li.active {
     z-index: 1;
     height: 100%;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 .statistics-section:after{
   position: absolute;
@@ -769,14 +769,14 @@ ul.portfolio li.active {
   z-index: -1;
 }
 .about-us-heading{
+  font-weight: 600;
   margin-top: 100px;
   margin-left: 491px;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #17d3b2;
-  color: #535353;
+  color: #fff;
   overflow:hidden;
   border-radius: 50px;
   border: 3px solid #fff;
