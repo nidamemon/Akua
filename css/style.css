@@ -681,8 +681,8 @@ ul.portfolio li.active {
 	background-color: transparent;
 	margin: 46.19px auto 60px;
 	padding: 20px 0;
-	border-left: solid 3px #ddd;
-	border-right: solid 3px #ddd;
+	/*border-left: solid 3px #ddd;
+	border-right: solid 3px #ddd;*/
 
 	-webkit-transform: translateZ(0px);
 	   -moz-transform: translateZ(0px);
@@ -728,26 +728,44 @@ ul.portfolio li.active {
 
 .icon-box:before {
 	top: -56.5685px;
-	border-top: solid 4.2426px #ddd;
-	border-right: solid 4.2426px #ddd;
+	/*border-top: solid 4.2426px #ddd;
+	border-right: solid 4.2426px #ddd;*/
 }
 
 .icon-box:after {
 	bottom: -56.5685px;
-	border-bottom: solid 4.2426px #ddd;
-	border-left: solid 4.2426px #ddd;
+	/*border-bottom: solid 4.2426px #ddd;
+	border-left: solid 4.2426px #ddd;*/
 }
 /* Statistics */
 .statistics-section {
 	position: relative;
-    background: url(../images/bg/wallpaper_newtown-creek.jpg);
+    background: url(../images/bg/about-us.jpg);
     background-size: cover;
+    background-position: 50% 50%;
     z-index: 1;
+    height: 100%;
+    margin-top: 5px;
+}
+.statistics-section:after{
+  position: absolute;
+  background: rgba(0, 0, 0, .5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+}
+.about-us-heading{
+  color: lightyellow;
+  margin-top: 100px;
+  padding-left: 25px;
 }
 
 .statistics {
   overflow: visible;
-  color: #ffffff;
+  color: lightyellow;
 }
 
 .statistics.block .statistics-icon,
@@ -788,7 +806,12 @@ ul.portfolio li.active {
 /* Services */
 
 .services-section {
-  background-color: #F9F9F9;
+  position: relative;
+    background: url(../images/bg/about-us.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 1;
+    height: 100%;
 }
 
 .services-section hr {
