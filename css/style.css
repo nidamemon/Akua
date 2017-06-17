@@ -370,7 +370,10 @@ body.loaded #preloader{
 
 .header-text {
   padding-top: 152px;
-  padding-left: 35px;
+  padding-left: 70px;
+  margin-top: -387px;
+  margin-bottom:200px;
+  width:55%;
 }
 
 .home-section-background h2 {
@@ -435,7 +438,7 @@ body.loaded #preloader{
 
 .logo a {
     display: block;
-    color: #fff;
+    color: #2512b7;
     text-transform: uppercase;
     letter-spacing: 6px;
     font-weight: 900;
