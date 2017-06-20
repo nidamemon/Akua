@@ -44,7 +44,7 @@
 
 .og-expander {
 	position: absolute;
-	background-color: rgba(242,242,242,.1);
+	background :black;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -58,6 +58,7 @@
 	padding: 50px 30px;
 	height: 100%;
     color: #ddd;
+		border: 2px solid #7b3107;
 }
 
 .og-close {
@@ -65,7 +66,7 @@
 	width: 40px;
 	height: 40px;
 	top: 20px;
-	right: 20px;
+	right: 55px;
 	cursor: pointer;
 }
 
@@ -75,8 +76,8 @@
 	position: absolute;
 	width: 100%;
 	top: 50%;
-	height: 1px;
-	background: #888;
+	height: 6px;
+	background: #1808f9;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
