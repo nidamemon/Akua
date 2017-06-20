@@ -20,7 +20,7 @@
 
 .og-grid li > a,
 .og-grid li > a img {
-	border: 2px solid #000;
+	border: 2px solid #24b662;
 	outline: none;
 	display: block;
 	position: relative;
@@ -44,7 +44,7 @@
 
 .og-expander {
 	position: absolute;
-	background :black;
+	background :#1e1e1e;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -58,7 +58,7 @@
 	padding: 50px 30px;
 	height: 100%;
     color: #ddd;
-		border: 2px solid #7b3107;
+		border: 2px solid #24b662;
 }
 
 .og-close {
@@ -77,7 +77,7 @@
 	width: 100%;
 	top: 50%;
 	height: 6px;
-	background: #1808f9;
+	background: #24b662;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);

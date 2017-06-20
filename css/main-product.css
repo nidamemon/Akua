@@ -34,9 +34,10 @@ body {
 }
 .back-image{
     position: relative;
-  background: url(../images/bg/profile.jpg);
-  background-repeat: repeat;
+  background: url(../images/bg/chemical_banner1.jpg);
+  /*background-repeat: repeat;*/
   background-size: cover;
+  height: 100%;
 }
 /*.back-image ::after{
     position: absolute;
@@ -44,7 +45,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 100%
   content: "";
   z-index: -1;
 }*/
@@ -77,7 +78,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #0d2bc1;
+    color: #24b662;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -213,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .color {
-    color: #0d2bc1;
+    color: #24b662;
 }
 
 .sub-title {
@@ -513,7 +514,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-filter ul li a {
-	color: #fff;
+	color: floralwhite;
 	display: inline-block;
 	font-size: 14px;
 	margin: 0 10px;
@@ -527,7 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #0d2bc1;
+	background: #24b662;
 	content: '';
 
 	-webkit-transition: top 0.3s;
@@ -542,7 +543,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 2px;
 	height: 2px;
-	background: #0d2bc1;
+	background: #24b662;
 	content: '';
 
 	-webkit-transition: height 0.3s;
@@ -613,7 +614,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hover-mask span {
-	border: 2px solid #ddd;
+	border: 2px solid #24b662;
 	border-radius: 50px;
 	color: #ddd;
 	display: inline-block;
