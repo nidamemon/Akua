@@ -47,7 +47,23 @@
 	   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+	<style>
+		.carousel-caption1 {
+			position: absolute;
+			right: 45%;
+			
+			left: 1%;
+			z-index: 10;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			color: #fff;
+			text-align: center;
+			text-shadow: 0 1px 2px rgba(0,0,0,.6);
+		}
+		.carousel-indicators{
+			bottom : -59px;
+		}
+	</style>
 
  </head>
 
@@ -60,54 +76,7 @@
 	  <div class="loader"></div>
     </div>
     <!-- Preloader End -->
-    <!-- banner -->
-      <div class="banner" id="home">
-      <!-- banner-text -->
-        <div class="banner-text">
-          <div class="callbacks_container">
-
-            <ul class="rslides" id="slider3">
-              <li>
-                <div class="slider-info">
-                  <p>Our Channel Partners</p>
-                  <img src="images/bg/danfoss-banner.png" alt="Danfoss" style="width:381;height:170;" />
-                </div>
-              </li>
-              <li>
-                <div class="slider-info">
-                  <p>Our Channel Partners</p>
-                  <img src="images/bg/spx_flow.jpg" alt="Danfoss" style="width:381;height:170;" />
-                </div>
-              </li>
-              <!-- <li>
-
-                <div class="slider-info">
-                   <h3>SOLVE CHALLENGES OF FIELD SERVICE WITH MOBILITY</h3>
-                  <p>Imagine the possibilities of what we can do for u.</p>
-                </div>
-              </li>
-              <li> -->
-
-                <!-- <div class="slider-info">
-                   <h3>what you can imagine we can create.</h3>
-                  <p>We work on the forefront of innovation and technology.</p>
-                </div>
-              </li>
-              <li> -->
-
-                <!-- <div class="slider-info">
-                   <h3>SOLVE CHALLENGES OF FIELD SERVICE WITH MOBILITY</h3>
-                  <p> Imagine the possibilities of what we can do for u.</p>
-                </div>
-              </li> -->
-
-            </ul>
-
-          <!-- </div>-->
-          <!-- <div class="clearfix"></div> -->
-        </div>
-      </div>
-    <!-- //banner -->
+   
 
 
     <!-- Home & Menu Section Start -->
@@ -153,7 +122,7 @@
             </div>
         </div>
 
-        <div class="home-section-background" >
+      <!--   <div class="home-section-background" >
             <div class="display-table">
                 <div class="display-table-cell">
                   <div class="container">
@@ -161,7 +130,7 @@
                         <div class="col-md-12">
                             <div class="header-text">
                                 <!-- <p>Hi! This is Akua Engg</p> -->
-                              <p><h2><span class="typing"></span></h2></p>
+                  <!--             <p><h2><span class="typing"></span></h2></p>
 
                                 <div class="margin-top-60">
                                     <a class="button button-style button-style-icon fa fa-long-arrow-right smoth-scroll" href="products.html">View Products</a>
@@ -174,7 +143,56 @@
 
             </div>
 
+        </div>  -->
+		 <div class="home-section-background" >
+			<!-- banner start -->
+			<div class="container" style="
+    padding-top: 212px;">
+ 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+	  <div class="carousel-caption1">
+          <h3>Our Channel Partners </h3>
+          <img src="images/bg/spx-logo.png" alt="Los Angeles" style="width:130px;height:100px;">
         </div>
+        <img src="images/bg/spx_flow.jpg" alt="Los Angeles" style="width:50%;float:right;">
+        
+      </div>
+	  <div class="item">
+	  <div class="carousel-caption1">
+          <h3>Our Channel Partners </h3>
+          <img src="images/bg/danfoss-logo.png" alt="Los Angeles" style="width:130px;height:100px;">
+        </div>
+        <img src="images/bg/danfoss-banner.png" alt="Los Angeles" style="width:50%;float:right;">
+        
+      </div>
+
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- banner ends -->
+		 </div>
 
 
 
